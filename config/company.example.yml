@@ -1,0 +1,57 @@
+# Company Context — copy to company.yml and customize
+
+company:
+  name: "[Company name]"
+  legal_name: "[Company Inc.]"
+  founded: "[YYYY-MM]"
+  website: "[https://example.com]"
+  mission: "[One sentence mission]"
+
+# Current stage
+stage:
+  stage: "seed"               # pre-seed / seed / series-a / series-b / later
+  funding_raised: 1500000     # total raised
+  last_round: "seed"
+  last_round_date: "2025-09"
+  last_round_amount: 1500000
+  
+team:
+  size: 4
+  engineers: 2
+  non_engineers: 2
+  location: "remote"          # remote / hybrid / office
+  timezones: ["PST", "EST"]
+
+# Financials
+financials:
+  mrr: 25000                  # monthly recurring revenue (USD)
+  arr: 300000                 # annual recurring revenue
+  burn_monthly: 60000         # monthly net burn
+  runway_months: 18
+  gross_margin: 78            # %
+  customer_count: 47
+  
+# Business model
+business:
+  model: "saas_b2b"           # saas_b2b / saas_b2c / marketplace / api / services
+  pricing:
+    starter: 49
+    pro: 149
+    enterprise: "custom"
+  primary_channel: "content_seo"
+  sales_motion: "self_serve_with_assist"
+  
+# Investors (if any)
+investors:
+  - name: "[Investor/Fund name]"
+    partner: "[Partner name]"
+    lead: true
+    round: "seed"
+
+# Key metrics (current)
+metrics:
+  churn_monthly: 3            # %
+  net_retention: 110          # %
+  cac: 450                    # blended CAC
+  ltv: 3600
+  payback_months: 8

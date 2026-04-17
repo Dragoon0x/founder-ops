@@ -1,0 +1,36 @@
+{
+  "name": "founder-ops",
+  "version": "3.0.0",
+  "description": "AI-powered founder operating system. 39 specialist modes, 19 playbooks, 12 templates. Built on Claude Code.",
+  "type": "module",
+  "scripts": {
+    "doctor": "node doctor.mjs",
+    "health": "node pipeline-health.mjs",
+    "follow-up": "node scripts/follow-up-cadence.mjs",
+    "burn": "node scripts/burn-watch.mjs",
+    "snapshot": "node scripts/metrics-snapshot.mjs",
+    "digest": "node scripts/weekly-digest.mjs",
+    "decision": "node scripts/decision-log.mjs",
+    "pipeline": "node scripts/investor-pipeline.mjs",
+    "cohort": "node scripts/customer-cohort.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "founder-tools",
+    "startup",
+    "ai-agent",
+    "customer-discovery",
+    "fundraising",
+    "product-management",
+    "operating-system"
+  ],
+  "author": "Dragoon0x",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dragoon0x/founder-ops"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

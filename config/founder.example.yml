@@ -1,0 +1,45 @@
+# Founder Profile — copy to founder.yml and customize
+
+name: "[Your name]"
+role: "[CEO / CTO / Founder]"
+email: "[your@email.com]"
+
+# Communication style
+style:
+  tone: "direct"              # direct / friendly / formal / casual
+  formality: "professional"   # formal / professional / casual
+  length: "concise"           # brief / concise / detailed
+  emoji_use: "minimal"        # none / minimal / moderate / frequent
+
+# Risk tolerance
+risk:
+  experiments: "aggressive"   # conservative / moderate / aggressive
+  spending: "moderate"        # conservative / moderate / aggressive
+  hiring: "conservative"      # conservative / moderate / aggressive
+
+# Current priorities (ordered by importance)
+priorities:
+  - "Customer acquisition"
+  - "Product-market fit"
+  - "Fundraising"
+
+# Background / expertise
+expertise:
+  technical: "senior"         # none / junior / mid / senior / expert
+  design: "mid"
+  business: "mid"
+  sales: "junior"
+
+# Time allocation (target %)
+time_allocation:
+  customer_facing: 35
+  product: 25
+  hiring: 15
+  fundraising: 10
+  deep_work: 15
+
+# Preferences
+preferences:
+  output_format: "markdown"
+  decision_framework: "RICE"
+  meeting_style: "short_and_direct"

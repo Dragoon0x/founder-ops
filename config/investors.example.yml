@@ -1,0 +1,39 @@
+# Investor Pipeline — copy to investors.yml and customize
+
+# Current investors
+current_investors:
+  - name: "[Fund Name]"
+    partner: "[Partner name]"
+    amount: 500000
+    round: "seed"
+    relationship: "strong"
+
+# Active pipeline (fundraising or maintaining relationship)
+active_pipeline:
+  - name: "[Fund Name]"
+    partner: "[Partner name]"
+    stage: "interested"       # cold / warm / meeting_scheduled / interested / pass
+    fund_thesis: "[Their focus]"
+    portfolio_fit: "high"
+    next_step: "[Specific action + date]"
+    warm_intro: "[Source]"
+    
+  - name: "[Fund Name]"
+    partner: "[Partner name]"
+    stage: "cold"
+    fund_thesis: "[Their focus]"
+    portfolio_fit: "medium"
+    next_step: "Research + warm intro path"
+
+# Target list (not yet contacted)
+target_list:
+  - name: "[Fund Name]"
+    reason: "[Why they fit]"
+    partner_to_target: "[Partner]"
+    intro_path: "[How to get in]"
+
+# Updates cadence
+updates:
+  frequency: "monthly"
+  last_sent: "YYYY-MM"
+  recipients: ["all_current_investors"]

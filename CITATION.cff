@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: 'Founder-Ops: AI-Powered Founder Operating System'
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - given-names: Dragoon0x
+    family-names: ""
+    website: 'https://github.com/Dragoon0x'
+repository-code: 'https://github.com/Dragoon0x/founder-ops'
+url: 'https://github.com/Dragoon0x/founder-ops'
+abstract: >-
+  Founder-Ops is an open-source AI-powered operating system for startup
+  founders. Built on Claude Code, it provides 40 specialist modes, 22
+  playbooks, and 13 scoring frameworks covering customer discovery,
+  prioritization, fundraising, growth, hiring, finance, positioning,
+  content, operations, and founder wellbeing.
+keywords:
+  - claude-code
+  - founder-tools
+  - startup
+  - ai-agent
+  - open-source
+  - operating-system
+license: MIT
+version: '2.0.0'
+date-released: '2026-04-16'

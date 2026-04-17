@@ -1,0 +1,60 @@
+# Product Details — copy to product.yml and customize
+
+product:
+  name: "[Product name]"
+  tagline: "[One sentence value prop]"
+  category: "[Market category you compete in]"
+  
+# Positioning
+positioning:
+  target_customer: "[Specific ICP]"
+  primary_alternative: "[What they use today]"
+  key_differentiator: "[One sentence on what's unique]"
+  
+# ICP (Ideal Customer Profile)
+icp:
+  firmographic:
+    company_size: "10-200 employees"
+    industry: "[Industry]"
+    revenue: "$1M-$50M ARR"
+    location: "US + English-speaking"
+  
+  technographic:
+    current_tools: ["Tool A", "Tool B"]
+    tech_sophistication: "medium"
+  
+  behavioral:
+    discovery: ["SEO", "word of mouth"]
+    buyer_role: "VP Eng / CTO"
+    sales_cycle: "2-6 weeks"
+  
+  psychographic:
+    values: ["speed", "quality", "simplicity"]
+    risk_tolerance: "moderate"
+    pain_intensity: "urgent"
+
+# Core features
+core_features:
+  - name: "[Feature 1]"
+    benefit: "[Why it matters]"
+    status: "live"
+  - name: "[Feature 2]"
+    benefit: "[Why it matters]"
+    status: "live"
+
+# Competitive landscape
+competitors:
+  direct:
+    - name: "[Competitor A]"
+      strength: "[their edge]"
+      weakness: "[their gap]"
+  indirect:
+    - name: "[Alternative]"
+      when_they_win: "[specific scenario]"
+
+# Key metrics
+product_metrics:
+  dau_mau: 0.42
+  activation_rate: 0.65
+  week_4_retention: 0.38
+  nps: 52
