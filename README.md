@@ -1,10 +1,8 @@
 # Founder-Ops
 
-> *I spent years trying to run a startup with spreadsheets, docs, and Notion. So I engineered the system I wish I had.*
-> 
-> *VCs use AI to evaluate founders. **I gave founders AI to run their company.***
+> *every founder rebuilds the same playbooks from scratch. fundraising, hiring, board prep, pricing, churn — all from zero, every time.*
 >
-> *Now it's open source.*
+> *660+ files. 50 modes. 300K words. this is the last time anyone has to do that.*
 
 [![Claude Code](https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white)](https://claude.com/product/claude-code)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
